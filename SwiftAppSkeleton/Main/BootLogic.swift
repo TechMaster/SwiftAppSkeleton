@@ -33,7 +33,7 @@ class BootLogic: NSObject {
         
         let mainScreen = MainScreen(style: UITableViewStyle.grouped)
         mainScreen.menu = [basic, inter, advance]
-        mainScreen.title = "Grand Central Dispatch"
+        mainScreen.title = "Bài tập lập trình căn bản"
         mainScreen.about = "Written by Trinh Minh Cuong"
         
         let nav = UINavigationController(rootViewController: mainScreen)
